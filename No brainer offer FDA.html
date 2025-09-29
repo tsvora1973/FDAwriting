@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDA Regulatory Writing Services | No-Risk Expert Submissions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #2c5aa0 0%, #1e3a5f 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .hero h1 {
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.3em;
+            margin-bottom: 25px;
+            color: #ffc107;
+            font-weight: 500;
+        }
+        
+        .hero .pain-point {
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+        
+        .section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #2c5aa0;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+        
+        .section h3 {
+            color: #495057;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            margin-top: 25px;
+        }
+        
+        .section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .section li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .section li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .offer-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .offer-card {
+            background: #fff;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 30px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .offer-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            border-color: #28a745;
+        }
+        
+        .offer-badge {
+            background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            position: absolute;
+            top: -10px;
+            right: 20px;
+        }
+        
+        .offer-badge.limited {
+            background: linear-gradient(135deg, #ffc107, #ffcd3c);
+            color: #333;
+        }
+        
+        .offer-badge.guarantee {
+            background: linear-gradient(135deg, #28a745, #34ce57);
+        }
+        
+        .offer-title {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: #2c5aa0;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+        
+        .offer-price {
+            font-size: 2em;
+            color: #28a745;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .offer-description {
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .offer-bonus {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #28a745;
+        }
+        
+        .offer-bonus strong {
+            color: #28a745;
+        }
+        
+        .offer-guarantee {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #ffc107;
+            font-style: italic;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            text-align: center;
+            padding: 50px;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 20px;
+            border: none;
+            padding: 0;
+            font-size: 2.2em;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #28a745;
+            padding: 18px 35px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            margin: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+            font-size: 1.1em;
+        }
+        
+        .btn:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        
+        .email-link {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+        
+        .email-link:hover {
+            color: #f8f9fa;
+        }
+        
+        .social-proof {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .urgency-banner {
+            background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            font-weight: 600;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="urgency-banner">
+        ⚡ OCTOBER 2025 SPECIAL: Get your FDA submission ready before year-end deadlines! Limited spots available.
+    </div>
+    
+    <div class="hero">
+        <div class="container">
+            <h1>Get Your FDA Submission Approved</h1>
+            <div class="subtitle">Without the Risk, Delays, or Rejections</div>
+            <p class="pain-point">Stop worrying about FDA warning letters, missed deadlines, and costly submission rejections. Get expert regulatory writing that FDA reviewers approve—or pay nothing.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="social-proof">
+            <h3>Trusted by 50+ Biotech Startups, CROs, and MedTech Companies</h3>
+            <p>✓ 30 years medical expertise ✓ Zero FDA rejections to date ✓ Average 15-day faster approvals</p>
+        </div>
+        
+        <div class="section">
+            <h2>🎯 No-Risk FDA Writing Offers</h2>
+            <p style="margin-bottom: 30px; font-size: 1.1em;">Choose the offer that eliminates your biggest pain point. Every option includes our "FDA Approval Guarantee"—if FDA rejects due to writing quality, we rewrite for free.</p>
+            
+            <div class="offer-cards">
+                <!-- Starter Offer -->
+                <div class="offer-card">
+                    <div class="offer-badge">RISK-FREE</div>
+                    <div class="offer-title">FDA Section Audit</div>
+                    <div class="offer-price">$299</div>
+                    <div class="offer-description">
+                        I'll review your most critical FDA submission section and provide 3 specific improvement recommendations.
+                    </div>
+                    <div class="offer-bonus">
+                        <strong>BONUS:</strong> Free eCTD formatting checklist + FDA template guide
+                    </div>
+                    <div class="offer-guarantee">
+                        <strong>GUARANTEE:</strong> Pay only if you're 100% satisfied with the recommendations
+                    </div>
+                </div>
+                
+                <!-- Popular Offer -->
+                <div class="offer-card">
+                    <div class="offer-badge guarantee">MOST POPULAR</div>
+                    <div class="offer-title">Complete Section Rewrite</div>
+                    <div class="offer-price">$1,497</div>
+                    <div class="offer-description">
+                        I'll completely rewrite one critical submission section (CMC, Clinical, or Safety) to FDA standards.
+                    </div>
+                    <div class="offer-bonus">
+                        <strong>BONUS:</strong> Free gap analysis report + 2 revision rounds + FDA query response template
+                    </div>
+                    <div class="offer-guarantee">
+                        <strong>GUARANTEE:</strong> If FDA rejects due to writing quality, complete rewrite is FREE
+                    </div>
+                </div>
+                
+                <!-- Premium Offer -->
+                <div class="offer-card">
+                    <div class="offer-badge limited">LIMITED TIME</div>
+                    <div class="offer-title">Full Submission Package</div>
+                    <div class="offer-price">$4,997</div>
+                    <div class="offer-description">
+                        Complete FDA-ready submission package for one 510(k), IND, or NDA section with full eCTD formatting.
+                    </div>
+                    <div class="offer-bonus">
+                        <strong>BONUS:</strong> Free pre-submission meeting prep + 3 revision rounds + 60-day post-submission support + FDA correspondence templates
+                    </div>
+                    <div class="offer-guarantee">
+                        <strong>GUARANTEE:</strong> FDA acceptance in first review cycle or we work for free until approved
+                    </div>
+                </div>
+                
+                <!-- Emergency Offer -->
+                <div class="offer-card">
+                    <div class="offer-badge">24-HOUR</div>
+                    <div class="offer-title">Emergency FDA Response</div>
+                    <div class="offer-price">$2,497</div>
+                    <div class="offer-description">
+                        Need to respond to FDA warning letter or inspection finding within 15 days? I'll handle it completely.
+                    </div>
+                    <div class="offer-bonus">
+                        <strong>BONUS:</strong> Free CAPA plan template + direct phone access during project
+                    </div>
+                    <div class="offer-guarantee">
+                        <strong>GUARANTEE:</strong> Delivered in 24 hours or 25% refund. FDA acceptance or free revision.
+                    </div>
+                </div>
+                
+                <!-- Trial Offer -->
+                <div class="offer-card">
+                    <div class="offer-badge">TRY FIRST</div>
+                    <div class="offer-title">Free FDA Assessment</div>
+                    <div class="offer-price">FREE</div>
+                    <div class="offer-description">
+                        Send me your current submission draft. I'll identify the top 3 FDA rejection risks and suggest fixes.
+                    </div>
+                    <div class="offer-bonus">
+                        <strong>BONUS:</strong> Free 15-minute consultation call to discuss findings
+                    </div>
+                    <div class="offer-guarantee">
+                        <strong>NO OBLIGATION:</strong> Decide if you want to hire me after seeing the quality
+                    </div>
+                </div>
+                
+                <!-- Pay-Later Offer -->
+                <div class="offer-card">
+                    <div class="offer-badge guarantee">PAY LATER</div>
+                    <div class="offer-title">Success-Based Writing</div>
+                    <div class="offer-price">$0 Now</div>
+                    <div class="offer-description">
+                        I'll write your submission section completely. Pay only after your regulatory team approves the quality.
+                    </div>
+                    <div class="offer-bonus">
+                        <strong>BONUS:</strong> Free submission timeline consultation + FDA reviewer checklist
+                    </div>
+                    <div class="offer-guarantee">
+                        <strong>GUARANTEE:</strong> Pay 50% now, 50% after approval. Not satisfied? Pay nothing.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Why These Offers Are Risk-Free for You</h2>
+            <h3>🏥 30 Years of Medical Expertise</h3>
+            <ul>
+                <li><strong>Dental surgeon turned regulatory writer</strong>—I understand both the science AND the FDA requirements</li>
+                <li>Real clinical experience means no generic, cookie-cutter writing</li>
+                <li>I speak the same language as FDA medical reviewers</li>
+            </ul>
+            
+            <h3>📋 Proven FDA Track Record</h3>
+            <ul>
+                <li><strong>Zero FDA rejections</strong> due to writing quality in 5+ years</li>
+                <li>Average <strong>15-day faster approval times</strong> vs. industry standard</li>
+                <li>Expert in eCTD formatting, FDA templates, and current guidance</li>
+            </ul>
+            
+            <h3>⚡ Built for Urgent Deadlines</h3>
+            <ul>
+                <li><strong>24-hour emergency response</strong> for FDA warning letters</li>
+                <li>Direct Slack/phone access during critical projects</li>
+                <li>No bureaucracy—just fast, expert writing when you need it</li>
+            </ul>
+        </div>
+        
+        <div class="cta-section">
+            <h2>Ready to File with Zero Risk?</h2>
+            <p>Pick any offer above. If you're not 100% satisfied with the quality, pay nothing.</p>
+            <br>
+            <a href="https://app.schedulingbuddy.ai/booking/book-call?slug=consultation-bksdwy" class="btn">Claim Your Risk-Free FDA Writing</a>
+            <br><br>
+            <p>Or email <a href="mailto:drtusharvora@gmail.com" class="email-link">drtusharvora@gmail.com</a> with your biggest FDA submission challenge.</p>
+            <br>
+            <p style="font-size: 0.9em; opacity: 0.9;">⏰ October 2025 Special ends soon. Book now to secure year-end submission deadlines.</p>
+        </div>
+    </div>
+</body>
+</html>
